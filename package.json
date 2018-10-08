@@ -1,0 +1,23 @@
+{
+    "name": "workspace",
+    "version": "1.0.0",
+    "description": "Crawler for bnz.co.nz",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon ./node_modules/.bin/babel-node --presets node8 -e js index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.17.0",
+        "nodemon": "1.18.4",
+        "cheerio": "1.0.0-rc.2",
+        "express": "4.16.3",
+        "request": "2.88.0",
+        "bluebird": "3.5.2",
+        "babel-core": "6.26.3",
+        "babel-cli": "6.26.0",
+        "babel-preset-node8": "1.2.0"
+    },
+    "devDependencies": {}
+}
