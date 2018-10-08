@@ -23,9 +23,17 @@ app.get('/start', (req, res) => {
             crawler(url, depth, config, ignoreList)
             res.sendStatus(200)
         })
-
 })
 
+app.get('/segment', (req, res) => {
+
+    let segment = req.query.segment
+    let site = req.query.site;
+    console.log("the segment", segment)
+    console.log("the site", site)
+
+    res.sendStatus(200);
+})
 
 
 
